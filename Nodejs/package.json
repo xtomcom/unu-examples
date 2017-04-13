@@ -1,0 +1,8 @@
+{
+  "name": "unu-example",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
