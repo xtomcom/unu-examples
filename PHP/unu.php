@@ -130,7 +130,6 @@ class UNURequest
         curl_setopt($ch, CURLOPT_POSTFIELDS, $this->buildQuery());
         $data = curl_exec($ch);
         curl_close($ch);
-        var_dump($data);
         return json_decode($data);
     }
 }
